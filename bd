@@ -1,0 +1,25 @@
+CREATE DATABASE cha CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+USE cha_casa_nova;
+
+CREATE TABLE imagens (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    caminho VARCHAR(100),
+    nome VARCHAR(100),
+    ativo TINYINT(1) DEFAULT 1
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+INSERT INTO imagens (caminho, nome) VALUES 
+('img/Conjunto De Panelas Antiaderente Preto 5 Peças Arnix.png', 'Conjunto De Panelas Antiaderente Preto 5 Peças Arnix'),
+('img/Cuscuzeira Individual Nordestino Cuscuzeiro - Preta.png', 'Cuscuzeira Individual Nordestino Cuscuzeiro - Preta'),
+('img/Faqueiro Inox Tramontina Búzios 24 Peças.jpg', 'Faqueiro Inox Tramontina Búzios 24 Peças'),
+('img/Jogo de Cama Grafite King 4 Peças.png', 'Jogo de Cama Grafite King 4 Peças'),
+('img/Kit 2 Toalhas De Banho Felpuda 100% Algodão Preta E Azul', 'Kit 2 Toalhas De Banho Felpuda 100% Algodão Preta E Azul'),
+('img/Kit de Utensílios 5 Peças Ecokitchen, Produzido em Bambu de Ótima Qualidade, Resistentes ao Calor E Durável.jpg', 'Kit de Utensílios 5 Peças Ecokitchen, Produzido em Bambu de Ótima Qualidade, Resistentes ao Calor E Durável'),
+('img/Liquidificador Arno Easymix LN20 550W 2 Velocidades Preto 127V.png', 'Liquidificador Arno Easymix LN20 550W 2 Velocidades Preto 127V'),
+('img/Master Atacadista Abridor De Lata E Garrafas 9cm Aço Inox Original Multiuso Universal.jpg', 'Master Atacadista Abridor De Lata E Garrafas 9cm Aço Inox Original Multiuso Universal'),
+('img/Mini Processador Alho Triturador de Alimentos Manual Utensílio Cozinha.png', 'Mini Processador Alho Triturador de Alimentos Manual Utensílio Cozinha'),
+('img/Neverdie Redoldo - Escorredor de Macarrão Arroz Salada Frutas Alimentos Retrátil Silicone.jpg', 'Neverdie Redoldo - Escorredor de Macarrão Arroz Salada Frutas Alimentos Retrátil Silicone'),
+('img/Ralador Descascador de Frutas Legumes e Verduras Multiuso Colorido Modelos Fatiador 5 em 1 NR-24.jpg', 'Ralador Descascador de Frutas Legumes e Verduras Multiuso Colorido Modelos Fatiador 5 em 1 NR-24'),
+('img/Sanduicheira Elétrica', 'Sanduicheira Elétrica'),
+('img/Tábua de Corte Média Modelo S Retangular - Madeira TECA.png', 'Tábua de Corte Média Modelo S Retangular - Madeira TECA');
